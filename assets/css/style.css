@@ -28,6 +28,7 @@ h1 {
     font-size: 70px;
 }
 
+
 .search {
     display: flex;
     flex-direction: column;
@@ -76,6 +77,14 @@ h1 {
     background-color: #3A5FCD;
 }
 
+.msg {
+    width: 750px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
 .cities {
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +110,7 @@ h1 {
 .city .temp {
     display: flex;
     margin-bottom: -50px;
+    z-index: 99;
 }
 
 .temp .currentTemp {
@@ -123,6 +133,10 @@ h1 {
     display: flex;
     font-size: 20px;
     font-weight: bold;
+}
+
+.weatherIcon {
+    height: 200px;
 }
 
 .city .weatherDescription {
@@ -149,13 +163,6 @@ h1 {
     font-weight: 600;
 }
 
-.msg {
-    width: 750px;
-    margin: auto;
-    margin-top: 10px;
-    font-size: 17px;
-    color: #fff;
-}
 
 @media (max-width: 650px) {
     .container {

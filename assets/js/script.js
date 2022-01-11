@@ -21,7 +21,9 @@ const showWeatherData = data => {
                 <div><img src="./assets/images/downArrow.png">${Math.round(main.temp_min)}<sup>°C</sup></div>
             </div>
         </div>
-        <img src="${icon}" />
+        <div class="weatherIcon">
+            <img src="${icon}" />
+        </div>
         <div class="weatherDescription">${weather[0].description}</div>
         <div class="weatherDetails">
             <div class="weatherDetail">
